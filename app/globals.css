@@ -12,6 +12,13 @@
   padding: 16rem 0 10rem 0;
 }
 
+.account {
+  background-image: url('https://ik.imagekit.io/0s9lwb2yr/Coinflow/Backgrounds/Coinflow_-_Account_Registration_RC-BpNFrr.png?updatedAt=1679745002063');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @media (min-width: 768px) {
   .hero {
     background-image: url('https://ik.imagekit.io/0s9lwb2yr/Coinflow/Backgrounds/Coinflow_-_Landing__QcqNEcK3.png?updatedAt=1679693748155');

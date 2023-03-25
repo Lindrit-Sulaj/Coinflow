@@ -30,3 +30,21 @@ export const topQualities = [
     text: "We stay at the forefront of the latest crypto trends and technologies."
   }
 ];
+
+export const accountSteps = [
+  {
+    image: "https://ik.imagekit.io/0s9lwb2yr/Coinflow/Images/identity_tcQQjDDeZ.png?updatedAt=1679743619311",
+    title: "Verify your identity",
+    text: "To ensure the safety and security of all our users, we require all new Coinflow account holders to verify their identity."
+  },
+  {
+    image: "https://ik.imagekit.io/0s9lwb2yr/Coinflow/Images/fund_2AXx-uvAo.png?updatedAt=1679743743849",
+    title: "Fund your account",
+    text: "With Coinflow, funding your account has never been easier. We offer a range of secure and convenient payment options."
+  },
+  {
+    image: "https://ik.imagekit.io/0s9lwb2yr/Coinflow/Images/exchange-rate_rgBqKc4R5.png?updatedAt=1679743743799",
+    title: "Start trading",
+    text: "Once your account is set up and funded, you're ready to start trading! Our platform offers a wide selection of cryptocurrencies and trading pairs to choose from."
+  }
+]
