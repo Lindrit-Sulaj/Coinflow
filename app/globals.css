@@ -3,10 +3,18 @@
 @tailwind utilities;
 
 .hero {
-  background-image: url('https://ik.imagekit.io/0s9lwb2yr/Coinflow/Backgrounds/coinflow_landing?updatedAt=1679593455825');
+  background-image: url('https://ik.imagekit.io/0s9lwb2yr/Coinflow/Backgrounds/iPhone_14_Pro_Max_-_1_Coinflow_twfvGScXf.png?updatedAt=1679666639167');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: auto;
+  padding: 16rem 0 10rem 0;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    background-image: url('https://ik.imagekit.io/0s9lwb2yr/Coinflow/Backgrounds/Coinflow_-_Landing__QcqNEcK3.png?updatedAt=1679693748155');
+    height: 100vh;
+  }
 }

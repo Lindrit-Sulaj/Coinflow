@@ -1,5 +1,7 @@
 import Hero from "./Hero";
+import Trading from "./Trading";
 
 export {
-  Hero
+  Hero,
+  Trading
 }
