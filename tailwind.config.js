@@ -16,7 +16,8 @@ module.exports = {
         'cobalt-blue': "#5588FF",
         'eerie-black': '#151717',
         "neon-blue": "#7F94FF",
-        "eerie-hover": "#191b1b"
+        "eerie-hover": "#191b1b",
+        "amber": "#FFBE0B"
       },
       fontFamily: {
         inter: ['var(--font-inter)']

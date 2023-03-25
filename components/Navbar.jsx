@@ -21,7 +21,7 @@ export default function Navbar() {
   const breakpoint = useMediaQuery();
 
   return (
-    <nav className='absolute top-0 h-[75px] border-solid border-b-[1px] border-b-jet w-full bg-eerie-black'>
+    <nav className='fixed top-0 h-[75px] border-solid border-b-[1px] border-b-jet w-full bg-eerie-black'>
       <div className='container h-full mx-auto flex items-center justify-between text-white px-4 md:px-0'>
         <label className="logo text-xl lg:text-2xl font-semibold">
           coin

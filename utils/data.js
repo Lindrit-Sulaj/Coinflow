@@ -45,6 +45,6 @@ export const accountSteps = [
   {
     image: "https://ik.imagekit.io/0s9lwb2yr/Coinflow/Images/exchange-rate_rgBqKc4R5.png?updatedAt=1679743743799",
     title: "Start trading",
-    text: "Once your account is set up and funded, you're ready to start trading! Our platform offers a wide selection of cryptocurrencies and trading pairs to choose from."
+    text: "Once your account is set up and funded, you're ready to start trading! Our platform offers over 200 cryptos to choose from."
   }
 ]

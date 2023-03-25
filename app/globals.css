@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1a1b1b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #312D2D;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .hero {
   background-image: url('https://ik.imagekit.io/0s9lwb2yr/Coinflow/Backgrounds/iPhone_14_Pro_Max_-_1_Coinflow_twfvGScXf.png?updatedAt=1679666639167');
   background-position: center;

@@ -4,7 +4,7 @@ import { topQualities } from '@/utils/data';
 
 export default function Trading() {
   return (
-    <section className="bg-eerie-black pt-10 pb-14 text-white">
+    <section className="bg-eerie-black pt-10 pb-6 md:pb-14 text-white">
       <div className="container mx-auto px-4 xl:px-0">
         <div className='flex flex-wrap lg:flex-nowrap gap-y-8 justify-between items-center w-full lg:gap-6'>
           <div className='w-full lg:w-1/2'>
