@@ -18,7 +18,7 @@ export default function Account() {
           <button className='px-6 py-3 bg-amber text-black rounded-lg font-medium mt-8'>Create account</button>
         </div>
         <div className='w-full md:w-1/2 flex justify-center'>
-          <img className='w-[80%] max-w-[320px] rounded-2xl' src="https://ik.imagekit.io/0s9lwb2yr/Coinflow/Images/binance_account_PuM15Pus2.jpg?updatedAt=1679742414023" alt="Binance portfolio" />
+          <img className='w-[80%] max-w-[320px] shadow-xl rounded-2xl' src="https://ik.imagekit.io/0s9lwb2yr/Coinflow/Images/binance_account_PuM15Pus2.jpg?updatedAt=1679742414023" alt="Binance portfolio" />
         </div>
       </div>
     </section>

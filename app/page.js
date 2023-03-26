@@ -1,4 +1,4 @@
-import { Hero, Trading, Account, Stats } from "@/sections"
+import { Hero, Trading, Account, Stats, Cryptocurrencies } from "@/sections"
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <Trading />
       <Account />
       <Stats />
+      <Cryptocurrencies />
     </main>
   )
 }

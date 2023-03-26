@@ -48,3 +48,26 @@ export const accountSteps = [
     text: "Once your account is set up and funded, you're ready to start trading! Our platform offers over 200 cryptos to choose from."
   }
 ]
+
+export const coins = [
+  {
+    name: 'Bitcoin',
+    id: 'Qwsogvtv82FCd'
+  },
+  {
+    name: 'Ethereum',
+    id: 'razxDUgYGNAdQ'
+  },
+  {
+    name: 'XRP',
+    id: '-l8Mn2pVlRs-p'
+  },
+  {
+    name: 'Stellar',
+    id: 'f3iaFeCKEmkaZ'
+  },
+  {
+    name: 'Litecoin',
+    id: 'D7B1x_ks7WhV5'
+  }
+]
