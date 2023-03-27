@@ -43,6 +43,7 @@ export default function Navbar() {
         </button>
 
         <motion.div
+          initial={false}
           variants={variants}
           animate={navOpened ? "open" : "close"}
           transition={{ type: 'just', duration: .2 }}

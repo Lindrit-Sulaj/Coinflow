@@ -54,13 +54,13 @@ export default function CoinPicker({ selectedCurrency }) {
           <div style={background} className='w-4 h-4 rounded-full'></div>
         </div>
       </div>
-      <div className='py-12 px-10 flex gap-10 items-center'>
-        <div className='w-3/5'>
+      <div className='py-8 md:py-12 px-6 md:px-10 flex-wrap lg:flex-nowrap flex gap-10 items-center'>
+        <div className='w-full lg:w-3/5'>
           <img className='w-14 h-14' src={data?.data?.coin?.iconUrl} alt="Icon image" />
           <h3 className='text-xl font-medium mt-3'>{data?.data?.coin?.name} <span className='text-neutral-400'>#{data?.data?.coin?.rank}</span></h3>
           <p className='mt-3 text-[rgb(200,200,200)] max-w-lg'>{data?.data?.coin?.description}</p>
         </div>
-        <div className='w-full md:w-2/5'>
+        <div className='w-full lg:w-2/5'>
           <p className=''>Price: <span className='text-xl font-medium ml-3'>${formatter.format(data?.data?.coin?.price)}</span> <span className={`${data?.data?.coin?.change[0] === "-" ? "text-red-400" : "text-green-400"}`}>{data?.data?.coin?.change[0] !== '-' && '+'}{data?.data?.coin?.change}</span></p>
           <p className='mt-3'>Market cap: <span className='text-xl font-medium ml-3'>${formatter.format(data?.data?.coin?.marketCap)}</span></p>
           <p className='mt-3'>ATH: <span className='text-xl font-medium ml-3'>${formatter.format(data?.data?.coin?.allTimeHigh?.price)}</span></p>
