@@ -1,4 +1,4 @@
-import { Hero, Trading, Account, Stats, Cryptocurrencies } from "@/sections"
+import { Hero, Trading, Account, Stats, Cryptocurrencies, News } from "@/sections"
 
 export const metadata = {
   title: 'Create Next App',
@@ -13,6 +13,7 @@ export default function Home() {
       <Account />
       <Stats />
       <Cryptocurrencies />
+      <News />
     </main>
   )
 }
